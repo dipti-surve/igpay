@@ -1,0 +1,505 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap'); */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;}
+html{
+  scroll-behavior: smooth;
+}
+hr{
+  margin: 30px 150px;
+}
+.picture{
+  height: 550px;
+    background:rgba(0, 0, 0, 0.7) url(/img/c5.jpg)center;
+    box-shadow: 0 12px 20px rgba(0,0,0,0.5);
+    background-size: cover;
+    background-blend-mode: darken;
+    color: rgb(170, 169, 169);
+    text-align: center;
+}
+.picture-1{
+  height: 550px;
+  background:rgba(0, 0, 0, 0.7) url(/img/jewellery.jpg)center;
+  box-shadow: 0 12px 20px rgba(0,0,0,0.5);
+  background-size: cover;
+  background-blend-mode: darken;
+  color: rgb(170, 169, 169);
+  text-align: center;
+}
+.picture-2{
+  height: 550px;
+  background:rgba(0, 0, 0, 0.7) url(/img/biz.jpg)center;
+  box-shadow: 0 12px 20px rgba(0,0,0,0.5);
+  background-size: cover;
+  background-blend-mode: darken;
+  color: rgb(170, 169, 169);
+  text-align: center;
+}
+.picture-3{
+  height: 550px;
+  background:rgba(0, 0, 0, 0.7) url(/img/s4.jpg)center;
+  box-shadow: 0 12px 20px rgba(0,0,0,0.5);
+  background-size: cover;
+  background-blend-mode: darken;
+  color: rgb(170, 169, 169);
+  text-align: center;
+}
+.picture-4{
+  height: 550px;
+  background:rgba(0, 0, 0, 0.7) url(/img/liq1.jpg)center;
+  box-shadow: 0 12px 20px rgba(0,0,0,0.5);
+  background-size: cover;
+  background-blend-mode: darken;
+  color: rgb(170, 169, 169);
+  text-align: center;
+}
+.picture-5{
+  height: 550px;
+  background:rgba(0, 0, 0, 0.7) url(/img/web.jpg)center;
+  box-shadow: 0 12px 20px rgba(0,0,0,0.5);
+  background-size: cover;
+  background-blend-mode: darken;
+  color: rgb(170, 169, 169);
+  text-align: center;
+}
+.picture-6{
+  height: 550px;
+  background:rgba(0, 0, 0, 0.7) url(/img/edu.jpg)center;
+  box-shadow: 0 12px 20px rgba(0,0,0,0.5);
+  background-size: cover;
+  background-blend-mode: darken;
+  color: rgb(170, 169, 169);
+  text-align: center;
+}
+.picture-7{
+  height: 550px;
+  background:rgba(0, 0, 0, 0.7) url(/img/nootropics.jpg)center;
+  box-shadow: 0 12px 20px rgba(0,0,0,0.5);
+  background-size: cover;
+  background-blend-mode: darken;
+  color: rgb(170, 169, 169);
+  text-align: center;
+}
+.group{
+    padding-top: 200px;
+    line-height: 3rem;
+    padding: 200px 300px 0px 300px;
+}
+
+.heading{
+    display: block;
+    text-align: center;
+    margin: 80px 0px;
+    padding: 0px 200px 0px 200px;
+  }
+  .heading .slogan{
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    padding: 0px 100px;
+    font-weight: lighter;
+    line-height: 1em;
+    color: #4e4e4e;
+
+  }
+  .heading .para{
+    font-size: 1.1em;
+    font-weight: 50;
+    line-height: 1.5em;
+    color: #7e7e7e;
+  }
+
+
+.list{
+  display: block;
+  padding-left: 180px;
+  line-height: 1.8rem;
+  display: flex;
+    flex-direction: column;
+}
+.list h3{
+  color: #4e4e4e;
+  margin-bottom: 20px;
+}
+.list a{
+  text-decoration: none;
+  color: #4a90e2;
+}
+.slogan{
+  text-align: center;
+  color: #252525;
+  margin: 70px 0px;
+}
+.paragraph{
+  padding-left: 180px;
+  padding-right: 180px;
+}
+.headline{
+font-weight: 100;
+line-height: 1.8rem;
+color: rgb(71, 70, 70);
+}
+.p{
+  line-height: 1.5rem;
+  color: #7e7e7e;
+margin: 30px 0px;
+}
+.parts{
+  display: flex;
+  margin-bottom: 100px;
+  width: 100%;
+}
+.parts .paragraph{
+  width: 60% ;
+  padding-right: 50px;
+}
+.img{
+
+background-size: cover;
+ width: 40%;
+}
+.headline-sm{
+  font-weight: 100;
+line-height: 1.8rem;
+color: rgb(71, 70, 70);
+text-align: center;
+margin-top: 80px;
+}
+.p-sm{
+  line-height: 1.5rem;
+  color: #7e7e7e;
+margin: 30px 150px;
+ font-size: large;
+ text-align: center;
+}
+.par3{
+  display: flex;
+  margin: 0px 130px;
+}
+.process-3 {
+  width: 60%;
+	counter-reset: number;
+}
+.process-3 .process__number > span:before {
+	counter-increment: number;
+	content: counter(number);
+}
+.process-3 {
+  list-style: none;
+  position: relative;
+}
+.process-3 li {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  width: 100%;
+}
+.process-3 li .process__number {
+  float: left;
+  width: 15%;
+  width: 3.71428571em;
+  height: 3.71428571em;
+  border-radius: 50%;
+  border: 2px solid #4a90e2;
+  background: #fff;
+  text-align: center;
+}
+.process-3 li p{
+  text-align: left;
+  width: 100%;
+  color: grey;
+}
+.process-3 li .process__number span {
+  font-size: 1.35714286em;
+  font-weight: bold;
+  color: #4a90e2;
+  position: relative;
+  top: 16px;
+}
+.process-3 li .process__body {
+  width: 80%;
+  float: left;
+  margin-left: 20px
+  
+}
+.process-3 li .process__body h4 {
+      text-align: left;
+  margin-bottom: 0.342105263157895em;
+  color: #4e4e4e;
+  text-align: left;
+}
+.process-3 li:not(:last-child) {
+  margin-bottom: 3.71428571em;
+}
+.process-3:before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 15px;
+  left: 1.85714286em;
+  top: 0;
+  border-left: 1px dashed #ddd;
+}
+.bg--dark .process-3 li .process__number {
+  background: #252525;
+}
+.bg--dark .process-3:before {
+  border-color: #aaa;
+}
+
+.picture-sec{
+  height: 550px;
+  background:rgba(0, 0, 0, 0.7) url(/img/c4.jpg)center;
+  box-shadow: 0 0px 20px rgba(0,0,0,0.7);
+  background-size: cover;
+  background-blend-mode: darken;
+  color: rgb(170, 169, 169);
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+ }
+ .picture-sec-1{
+  height: 550px;
+  background:rgba(0, 0, 0, 0.5) url(/img/jewellery1.jpg)center;
+  box-shadow: 0 0px 20px rgba(0,0,0,0.7);
+  background-size: cover;
+  background-blend-mode: darken;
+  color: rgb(170, 169, 169);
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+ }
+ .picture-sec-2{
+  height: 550px;
+  background:rgba(0, 0, 0, 0.5) url(/img/biz1.jpg)center;
+  box-shadow: 0 0px 20px rgba(0,0,0,0.7);
+  background-size: cover;
+  background-blend-mode: darken;
+  color: rgb(170, 169, 169);
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+ }
+ .picture-sec-3{
+  height: 550px;
+  background:rgba(0, 0, 0, 0.5) url(/img/s5.jpg)center;
+  box-shadow: 0 0px 20px rgba(0,0,0,0.7);
+  background-size: cover;
+  background-blend-mode: darken;
+  color: rgb(170, 169, 169);
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+ }
+ .picture-sec-4{
+  height: 550px;
+  background:rgba(0, 0, 0, 0.5) url(/img/liq.jpg)center;
+  box-shadow: 0 0px 20px rgba(0,0,0,0.7);
+  background-size: cover;
+  background-blend-mode: darken;
+  color: rgb(170, 169, 169);
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+ }
+ .picture-sec-5{
+  height: 550px;
+  background:rgba(0, 0, 0, 0.5) url(/img/web1.jpg)center;
+  box-shadow: 0 0px 20px rgba(0,0,0,0.7);
+  background-size: cover;
+  background-blend-mode: darken;
+  color: rgb(170, 169, 169);
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+ }
+ .picture-sec-6{
+  height: 550px;
+  background:rgba(0, 0, 0, 0.5) url(/img/gamer4.jpg)center;
+  box-shadow: 0 0px 20px rgba(0,0,0,0.7);
+  background-size: cover;
+  background-blend-mode: darken;
+  color: rgb(170, 169, 169);
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+ }
+ .picture-sec-7{
+  height: 550px;
+  background:rgba(0, 0, 0, 0.5) url(/img/nootropics1.jpg)center;
+  box-shadow: 0 0px 20px rgba(0,0,0,0.7);
+  background-size: cover;
+  background-blend-mode: darken;
+  color: rgb(170, 169, 169);
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+ }
+.paragraph-pic{
+  align-self: center;
+  padding-left: 100px;
+}
+.headline-pic{
+  color: white;
+  font-weight: lighter;
+  line-height: 3em;
+  text-align: left;
+  
+}
+.p-pic{
+  color: white;
+  text-align: left;
+  width: 75%;
+  font-weight: lighter;
+  line-height: 1.5em;
+  padding-bottom: 20px;
+}
+/* .j2{
+  background: url(/img/j2.jpg);
+  background-size: cover;
+  mask-border-width: 100%;
+} */
+/* Responsive page  */
+@media (max-width: 1053px) and (min-width:868px){
+    .group{
+      padding: 165px 70px;
+    }
+    .heading{
+      padding: 0px 20px 0px 20px;
+    }
+    .heading .slogan{
+      padding: 0px 20px 0px 20px;
+      line-height: 1.3em;
+    }
+    .heading .para{
+      line-height: 1.5em;
+    }
+    .list{
+      padding-left: 100px;
+    }
+    .slogan, .paragraph .headline, .paragraph .p {
+      padding: 0;
+    }
+    .paragraph{
+      padding: 0px 65px 0px 65px;
+    }
+    .parts{
+      flex-direction: column;
+      width: 100%;
+    }
+    .img{
+      width: 50%;
+    }
+    .par3{
+      margin: 0 50px;
+    }
+    .c2{
+      width: 100%;
+    }
+}
+@media (max-width: 868px){
+  .picture, .picture-1, .picture-2, .picture-3, .picture-4, .picture5, .picture-6,.picture-7 {
+    height: auto;
+  }
+  .picture-sec, .picture-sec-1,.picture-sec-2,.picture-sec-3,.picture-sec-4,.picture-sec-5,.picture-sec-6,.picture-sec-7{
+    height: auto;
+  }
+  .group{
+    padding: 100px 30px 100px 30px;
+    line-height: 2rem;
+  }
+    .heading{
+      padding: 0px 50px 0px 50px;
+    }
+    .heading .slogan{
+      padding: 0;
+      line-height: 1.3em;
+    }
+    .heading .para{
+      line-height: 1.5em;
+      padding: 0;
+    }
+    .list{
+      padding-left: 50px;
+    }
+    .slogan, .paragraph .headline, .paragraph .p {
+      padding: 0;
+    }
+    .paragraph{
+      padding: 0px 20px 0px 40px;
+    }
+    .parts{
+      flex-direction: column;
+    }
+    .par3{
+      flex-direction: column;
+      margin: 0;
+    }
+    .img{
+      margin: 0;
+      width: 100%;
+    }
+    .paragraph-pic{
+      padding: 50px 30px;
+      line-height: normal;
+      padding-left: 20px;
+    }
+    .headline-pic, .p-pic{
+      line-height: 1.1em;
+      width: 100%;
+      padding-bottom: 10px;
+    }
+    .p-sm{
+      margin: 0;
+    }
+    .process-3{
+      width: auto;
+      margin-left: 30px;
+    }
+    .process-3 li .process__body {
+      margin: 0;
+      padding-left: 10px;
+    }
+    .c2{
+      width: 100%;
+    }
+    .parts .paragraph {
+      width: 80%;
+      padding: 0px 0px 0px 40px;
+    }
+  }
+@media (max-width: 400px){
+  .group{
+    padding: 100px 30px 70px 30px;
+  }
+    .heading{
+      padding: 0px 30px 0px 30px;
+    }
+    .heading .slogan{
+      padding: 0;
+      font-weight: 50;
+      line-height: 1.3em; 
+    }
+    .heading .para{
+      line-height: 1.5em;
+    }
+    .list{
+      padding-left: 30px;
+    }
+    .slogan, .paragraph .headline, .paragraph .p {
+      padding: 0;
+    }
+    .paragraph{
+      padding: 0px 20px 0px 40px;
+    }
+    .process-3{
+      width: auto;
+      margin-left: 30px;
+    }
+    .process-3 li .process__body {
+      width: 60%;
+      margin: 0;
+      padding-left: 10px;
+    }
+    
+  }
